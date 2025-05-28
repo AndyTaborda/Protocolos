@@ -16,7 +16,7 @@ module top
     
     // Vars
     wire                   connect_count_to_sr;
-    wire [NB_LEDS - 1 : 0] connect_led_to_mux;
+    wire [NB_LEDS - 1 : 0] connect_led_to_mux ;
 
     wire [NB_SW   - 1 : 0]  sw_w                   ;    //Esto es un cable
     wire [NB_SW   - 1 : 0]  sw_from_vio            ;
