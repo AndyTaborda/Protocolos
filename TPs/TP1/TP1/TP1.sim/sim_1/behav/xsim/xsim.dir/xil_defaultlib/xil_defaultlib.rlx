@@ -1,0 +1,9 @@
+0.7
+2020.2
+Nov  8 2024
+22:36:57
+C:/Users/Andrea/Documents/GitHub/Protocolos/TPs/TP1/TP1/TP1.sim/sim_1/behav/xsim/glbl.v,1724786425,verilog,,,,glbl,,,,,,,,
+C:/Users/Andrea/Documents/GitHub/Protocolos/TPs/TP1/count.v,1687025244,verilog,,C:/Users/Andrea/Documents/GitHub/Protocolos/TPs/TP1/shiftreg.v,,count,,,,,,,,
+C:/Users/Andrea/Documents/GitHub/Protocolos/TPs/TP1/shiftreg.v,1687026574,verilog,,C:/Users/Andrea/Documents/GitHub/Protocolos/TPs/TP1/top.v,,shiftreg,,,,,,,,
+C:/Users/Andrea/Documents/GitHub/Protocolos/TPs/TP1/tb_top.v,1748442099,verilog,,,,tb_top,,,,,,,,
+C:/Users/Andrea/Documents/GitHub/Protocolos/TPs/TP1/top.v,1748442308,verilog,,C:/Users/Andrea/Documents/GitHub/Protocolos/TPs/TP1/tb_top.v,,top,,,,,,,,
