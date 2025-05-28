@@ -107,7 +107,7 @@ module tb_top();    //No tienen puertos
 //Se instancia el módulo
 top
   #(
-    .N_LEDS    (N_LEDS   ),
+    .NB_LEDS    (NB_LEDS ),
     .NB_COUNTER (NB_COUNT),
     .NB_SW      (NB_SW)      
     )
