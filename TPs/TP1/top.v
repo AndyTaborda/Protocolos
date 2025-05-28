@@ -25,8 +25,8 @@ module top
     wire                    sel_mux                ;
 
     //Control por VIO
-    assign sw_w  = (sel_mux) ? sw_from_vio     : i_sw    ;
-    assign reset = (sel_mux) ? ~reset_from_vio : ~i_reset;
+    //assign sw_w  = (sel_mux) ? sw_from_vio     : i_sw    ;
+    //assign reset = (sel_mux) ? ~reset_from_vio : ~i_reset;
  
 
 
@@ -56,7 +56,7 @@ module top
             );
 
 
-    ILA
+/*    ILA
         u_ILA
             (
             .clk_0    (clock   ),
@@ -78,7 +78,7 @@ module top
             .probe_out1_0 (reset_from_vio),
             .probe_out2_0 (sw_from_vio   )
             );
-
+*/
     assign o_led   = connect_led_to_mux;
     assign o_led_b = (i_sw[3]==1'b0) ? connect_led_to_mux : {NB_LEDS{1'b0}}     ;
     assign o_led_g = (i_sw[3]==1'b1) ? {NB_LEDS{1'b0}}      : connect_led_to_mux;

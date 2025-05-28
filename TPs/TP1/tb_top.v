@@ -26,26 +26,26 @@ module tb_top();    //No tienen puertos
         initial
         begin
             //Arrancan desde t=0
-                   i_reset    = 1'b0  ;  //Reseteado
-                   clock      = 1'b0  ;  //Clock en 0
-                   i_sw[0]    = 1'b0  ;  //Contador deshabilitado
-                   i_sw[2:1]  = 2'h0  ;  //Velocidad R0
-                   i_sw[3]    = 1'b0  ;  //Color azul
+                   i_reset    <= 1'b0  ;  //Reseteado
+                   clock      <= 1'b0  ;  //Clock en 0
+                   i_sw[0]    <= 1'b0  ;  //Contador deshabilitado
+                   i_sw[2:1]  <= 2'h0  ;  //Velocidad R0
+                   i_sw[3]    <= 1'b0  ;  //Color azul
 
-            #100   i_reset    = 1'b1   ;  //Sale de reset
-            #100   i_sw[0]    = 1'b1   ;  //Habilita el contador
+            #100   i_reset    <= 1'b1   ;  //Sale de reset
+            #100   i_sw[0]    <= 1'b1   ;  //Habilita el contador
             
-            #10000 i_sw[2:1]  = 2'h1   ;  //Velocidad R1
-            #10000 i_sw[2:1]  = 2'h2   ;  //Velocidad R2
+            #10000 i_sw[2:1]  <= 2'h1   ;  //Velocidad R1
+            #10000 i_sw[2:1]  <= 2'h2   ;  //Velocidad R2
 
-            #10000 i_reset    = 1'b0   ;  //Se resetea
-            #1000  i_reset    = 1'b1   ;  //Sale de reset
-            #10000 i_sw[2:1]  = 2'h3   ;  //Velocidad R3
-            #500   i_sw[0]    = 1'b1   ;  //Habilita el contador
+            #10000 i_reset    <= 1'b0   ;  //Se resetea
+            #1000  i_reset    <= 1'b1   ;  //Sale de reset
+            #10000 i_sw[2:1]  <= 2'h3   ;  //Velocidad R3
+            #500   i_sw[0]    <= 1'b1   ;  //Habilita el contador
 
 
-            #1000  i_sw[0]    = 1'b0   ;  //Deshabilito contador
-            #500   i_sw[0]    = 1'b1   ;  //Habilito contador
+            #1000  i_sw[0]    <= 1'b0   ;  //Deshabilito contador
+            #500   i_sw[0]    <= 1'b1   ;  //Habilito contador
 
                 $display("TEST PASSED");
             #50 $finish                ;    
@@ -124,5 +124,4 @@ top
      );
 
      
-
 endmodule 
