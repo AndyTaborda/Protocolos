@@ -1,7 +1,7 @@
 module top
 #(
     parameter  NB_SW      = 4 ,
-    parameter  NB_COUNTER = 32,
+    parameter  NB_COUNTER = 16,
     parameter  NB_LEDS    = 4
 )
 (
@@ -72,7 +72,7 @@ module top
             .clk_0        (clock         ),
             .probe_in0_0  (o_led         ),
             .probe_in1_0  (o_led_b       ),
-            .probe_in2_0  (o_led_g       )
+            .probe_in2_0  (o_led_g       ),
             
             .probe_out0_0 (sel_mux       ),
             .probe_out1_0 (reset_from_vio),
@@ -80,7 +80,7 @@ module top
             );
 
     assign o_led   = connect_led_to_mux;
-    assign o_led_b = (i_sw[3]==1'b0) ? connect_led_to_mux : {N_LED{1'b0}}     ;
-    assign o_led_g = (i_sw[3]==1'b1) ? {N_LED{1'b0}}      : connect_led_to_mux;
+    assign o_led_b = (i_sw[3]==1'b0) ? connect_led_to_mux : {NB_LEDS{1'b0}}     ;
+    assign o_led_g = (i_sw[3]==1'b1) ? {NB_LEDS{1'b0}}      : connect_led_to_mux;
 
 endmodule
