@@ -1,6 +1,5 @@
 // TB
 // Top Level
-// Constantes de referencia
 `define NB_LEDS      4  //Cantidad bits leds
 `define NB_COUNT     16 //Cantidad bits contador
 `define NB_SW        4  //Cantidad bits switch
