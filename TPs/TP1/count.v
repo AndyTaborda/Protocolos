@@ -1,4 +1,3 @@
-
 module count 
 #(
     parameter  NB_SW      = 3 ,

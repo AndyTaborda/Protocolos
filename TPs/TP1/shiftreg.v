@@ -1,4 +1,3 @@
-
 module shiftreg
 #(
     parameter  NB_LEDS = 4
