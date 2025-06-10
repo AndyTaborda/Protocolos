@@ -8,11 +8,11 @@ Pass Through NonSizing Optimizer
 Completed static elaboration
 Starting simulation data flow analysis
 WARNING: [XSIM 43-4099] "C:/Users/Andrea/Documents/GitHub/Protocolos/TPs/TP1/top.v" Line 1. Module top doesn't have a timescale but at least one module in design has a timescale.
-WARNING: [XSIM 43-4099] "C:/Users/Andrea/Documents/GitHub/Protocolos/TPs/TP1/count.v" Line 2. Module count(NB_COUNTER=16) doesn't have a timescale but at least one module in design has a timescale.
-WARNING: [XSIM 43-4099] "C:/Users/Andrea/Documents/GitHub/Protocolos/TPs/TP1/shiftreg.v" Line 2. Module shiftreg doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/Andrea/Documents/GitHub/Protocolos/TPs/TP1/count.v" Line 1. Module count(NB_COUNTER=16) doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/Andrea/Documents/GitHub/Protocolos/TPs/TP1/shiftreg.v" Line 1. Module shiftreg doesn't have a timescale but at least one module in design has a timescale.
 WARNING: [XSIM 43-4099] "C:/Users/Andrea/Documents/GitHub/Protocolos/TPs/TP1/top.v" Line 1. Module top doesn't have a timescale but at least one module in design has a timescale.
-WARNING: [XSIM 43-4099] "C:/Users/Andrea/Documents/GitHub/Protocolos/TPs/TP1/count.v" Line 2. Module count(NB_COUNTER=16) doesn't have a timescale but at least one module in design has a timescale.
-WARNING: [XSIM 43-4099] "C:/Users/Andrea/Documents/GitHub/Protocolos/TPs/TP1/shiftreg.v" Line 2. Module shiftreg doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/Andrea/Documents/GitHub/Protocolos/TPs/TP1/count.v" Line 1. Module count(NB_COUNTER=16) doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/Andrea/Documents/GitHub/Protocolos/TPs/TP1/shiftreg.v" Line 1. Module shiftreg doesn't have a timescale but at least one module in design has a timescale.
 Completed simulation data flow analysis
 Time Resolution for simulation is 1ps
 Compiling module xil_defaultlib.count(NB_COUNTER=16)

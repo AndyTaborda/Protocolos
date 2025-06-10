@@ -1,0 +1,131 @@
+Data_For_RDAFlowver5.0
+	top level½~
+dbg_hub
+LinkDesign_Blackboxes˜K
+synthFileNamesK
+7FC:/Xilinx/tools/Vivado/2024.2/data/vhdl/src/unimacro/ADDMACC_MACRO.vhdF
+33@C:/Xilinx/tools/Vivado/2024.2/data/ip/xpm/xpm_cdc/hdl/xpm_cdc.svÊ
+39Ãc:/Users/Andrea/Documents/GitHub/Protocolos/TPs/TP1/TP1_vio_ila/TP1_vio_ila.runs/impl_1/.Xil/Vivado-3968-DESKTOP-MT4FC8D/dc_drv.0/dc/prj_ip.gen/sources_1/ip/dbg_hub/hdl/verilog/xsdbm_v3_0_3_in.vh½
+69¶c:/Users/Andrea/Documents/GitHub/Protocolos/TPs/TP1/TP1_vio_ila/TP1_vio_ila.runs/impl_1/.Xil/Vivado-3968-DESKTOP-MT4FC8D/dc_drv.0/dc/prj_ip.runs/dbg_hub_synth_1/1993/src/syn_misc.vhdL
+34FC:/Xilinx/tools/Vivado/2024.2/data/ip/xpm/xpm_memory/hdl/xpm_memory.sv½
+64¶c:/Users/Andrea/Documents/GitHub/Protocolos/TPs/TP1/TP1_vio_ila/TP1_vio_ila.runs/impl_1/.Xil/Vivado-3968-DESKTOP-MT4FC8D/dc_drv.0/dc/prj_ip.runs/dbg_hub_synth_1/1993/src/prmtvs_p.vhdO
+28IC:/Xilinx/tools/Vivado/2024.2/data/verilog/src/unimacro/FIFO_SYNC_MACRO.vÃ
+38¼c:/Users/Andrea/Documents/GitHub/Protocolos/TPs/TP1/TP1_vio_ila/TP1_vio_ila.runs/impl_1/.Xil/Vivado-3968-DESKTOP-MT4FC8D/dc_drv.0/dc/prj_ip.gen/sources_1/ip/dbg_hub/hdl/xsdbm_v3_0_vl_rfs.vÏ
+46Èc:/Users/Andrea/Documents/GitHub/Protocolos/TPs/TP1/TP1_vio_ila/TP1_vio_ila.runs/impl_1/.Xil/Vivado-3968-DESKTOP-MT4FC8D/dc_drv.0/dc/prj_ip.gen/sources_1/ip/dbg_hub/hdl/verilog/xsdbm_v3_0_3_bs_core.vhÓ
+50Ìc:/Users/Andrea/Documents/GitHub/Protocolos/TPs/TP1/TP1_vio_ila/TP1_vio_ila.runs/impl_1/.Xil/Vivado-3968-DESKTOP-MT4FC8D/dc_drv.0/dc/prj_ip.gen/sources_1/ip/dbg_hub/hdl/verilog/xsdbm_v3_0_3_bs_core_vec.vh»
+54´c:/Users/Andrea/Documents/GitHub/Protocolos/TPs/TP1/TP1_vio_ila/TP1_vio_ila.runs/impl_1/.Xil/Vivado-3968-DESKTOP-MT4FC8D/dc_drv.0/dc/prj_ip.gen/sources_1/ip/dbg_hub/synth/dbg_hub.vO
+13IC:/Xilinx/tools/Vivado/2024.2/data/vhdl/src/unimacro/COUNTER_TC_MACRO.vhdÖ
+48Ïc:/Users/Andrea/Documents/GitHub/Protocolos/TPs/TP1/TP1_vio_ila/TP1_vio_ila.runs/impl_1/.Xil/Vivado-3968-DESKTOP-MT4FC8D/dc_drv.0/dc/prj_ip.gen/sources_1/ip/dbg_hub/hdl/verilog/xsdbm_v3_0_3_bsid_vec_ports.vhÐ
+42Éc:/Users/Andrea/Documents/GitHub/Protocolos/TPs/TP1/TP1_vio_ila/TP1_vio_ila.runs/impl_1/.Xil/Vivado-3968-DESKTOP-MT4FC8D/dc_drv.0/dc/prj_ip.gen/sources_1/ip/dbg_hub/hdl/verilog/xsdbm_v3_0_3_bs_ports.vhÓ
+45Ìc:/Users/Andrea/Documents/GitHub/Protocolos/TPs/TP1/TP1_vio_ila/TP1_vio_ila.runs/impl_1/.Xil/Vivado-3968-DESKTOP-MT4FC8D/dc_drv.0/dc/prj_ip.gen/sources_1/ip/dbg_hub/hdl/verilog/xsdbm_v3_0_3_bs_core_ext.vhÀ
+60¹c:/Users/Andrea/Documents/GitHub/Protocolos/TPs/TP1/TP1_vio_ila/TP1_vio_ila.runs/impl_1/.Xil/Vivado-3968-DESKTOP-MT4FC8D/dc_drv.0/dc/prj_ip.runs/dbg_hub_synth_1/1993/src/numeric_std.vhdM
+11GC:/Xilinx/tools/Vivado/2024.2/data/vhdl/src/unimacro/BRAM_TDP_MACRO.vhdÎ
+49Çc:/Users/Andrea/Documents/GitHub/Protocolos/TPs/TP1/TP1_vio_ila/TP1_vio_ila.runs/impl_1/.Xil/Vivado-3968-DESKTOP-MT4FC8D/dc_drv.0/dc/prj_ip.gen/sources_1/ip/dbg_hub/hdl/verilog/xsdbm_v3_0_3_bs_vec.vhÃ
+35¼c:/Users/Andrea/Documents/GitHub/Protocolos/TPs/TP1/TP1_vio_ila/TP1_vio_ila.runs/impl_1/.Xil/Vivado-3968-DESKTOP-MT4FC8D/dc_drv.0/dc/prj_ip.gen/sources_1/ip/dbg_hub/hdl/ltlib_v1_0_vl_rfs.vI
+17CC:/Xilinx/tools/Vivado/2024.2/data/vhdl/src/unimacro/MACC_MACRO.vhdS
+15MC:/Xilinx/tools/Vivado/2024.2/data/vhdl/src/unimacro/FIFO_DUALCLOCK_MACRO.vhdÒ
+51Ëc:/Users/Andrea/Documents/GitHub/Protocolos/TPs/TP1/TP1_vio_ila/TP1_vio_ila.runs/impl_1/.Xil/Vivado-3968-DESKTOP-MT4FC8D/dc_drv.0/dc/prj_ip.gen/sources_1/ip/dbg_hub/hdl/verilog/xsdbm_v3_0_3_sl_prt_map.vhJ
+8EC:/Xilinx/tools/Vivado/2024.2/data/vhdl/src/unimacro/ADDSUB_MACRO.vhdË
+36Äc:/Users/Andrea/Documents/GitHub/Protocolos/TPs/TP1/TP1_vio_ila/TP1_vio_ila.runs/impl_1/.Xil/Vivado-3968-DESKTOP-MT4FC8D/dc_drv.0/dc/prj_ip.gen/sources_1/ip/dbg_hub/hdl/verilog/ltlib_v1_0_2_ver.vhQ
+12KC:/Xilinx/tools/Vivado/2024.2/data/vhdl/src/unimacro/COUNTER_LOAD_MACRO.vhdN
+16HC:/Xilinx/tools/Vivado/2024.2/data/vhdl/src/unimacro/FIFO_SYNC_MACRO.vhdC
+4>C:/Xilinx/tools/Vivado/2024.2/scripts/rt/data/internal_cells.vP
+31JC:/Xilinx/tools/Vivado/2024.2/data/vhdl/src/unisims/retarget/MULT18X18.vhd½
+59¶c:/Users/Andrea/Documents/GitHub/Protocolos/TPs/TP1/TP1_vio_ila/TP1_vio_ila.runs/impl_1/.Xil/Vivado-3968-DESKTOP-MT4FC8D/dc_drv.0/dc/prj_ip.runs/dbg_hub_synth_1/1993/src/standard.vhd@
+3;C:/Xilinx/tools/Vivado/2024.2/scripts/rt/data/unisim_comp.vP
+26JC:/Xilinx/tools/Vivado/2024.2/data/verilog/src/unimacro/EQ_COMPARE_MACRO.v½
+67¶c:/Users/Andrea/Documents/GitHub/Protocolos/TPs/TP1/TP1_vio_ila/TP1_vio_ila.runs/impl_1/.Xil/Vivado-3968-DESKTOP-MT4FC8D/dc_drv.0/dc/prj_ip.runs/dbg_hub_synth_1/1993/src/syn_unsi.vhd=
+557C:/Xilinx/tools/Vivado/2024.2/data/ip/xpm/xpm_VCOMP.vhdQ
+32KC:/Xilinx/tools/Vivado/2024.2/data/vhdl/src/unisims/retarget/MULT18X18S.vhd½
+68¶c:/Users/Andrea/Documents/GitHub/Protocolos/TPs/TP1/TP1_vio_ila/TP1_vio_ila.runs/impl_1/.Xil/Vivado-3968-DESKTOP-MT4FC8D/dc_drv.0/dc/prj_ip.runs/dbg_hub_synth_1/1993/src/syn_sign.vhd½
+62¶c:/Users/Andrea/Documents/GitHub/Protocolos/TPs/TP1/TP1_vio_ila/TP1_vio_ila.runs/impl_1/.Xil/Vivado-3968-DESKTOP-MT4FC8D/dc_drv.0/dc/prj_ip.runs/dbg_hub_synth_1/1993/src/timing_p.vhd½
+65¶c:/Users/Andrea/Documents/GitHub/Protocolos/TPs/TP1/TP1_vio_ila/TP1_vio_ila.runs/impl_1/.Xil/Vivado-3968-DESKTOP-MT4FC8D/dc_drv.0/dc/prj_ip.runs/dbg_hub_synth_1/1993/src/prmtvs_b.vhdL
+20FC:/Xilinx/tools/Vivado/2024.2/data/verilog/src/unimacro/ADDSUB_MACRO.vJ
+30DC:/Xilinx/tools/Vivado/2024.2/data/verilog/src/unimacro/MULT_MACRO.vR
+24LC:/Xilinx/tools/Vivado/2024.2/data/verilog/src/unimacro/COUNTER_LOAD_MACRO.vP
+10JC:/Xilinx/tools/Vivado/2024.2/data/vhdl/src/unimacro/BRAM_SINGLE_MACRO.vhd½
+66¶c:/Users/Andrea/Documents/GitHub/Protocolos/TPs/TP1/TP1_vio_ila/TP1_vio_ila.runs/impl_1/.Xil/Vivado-3968-DESKTOP-MT4FC8D/dc_drv.0/dc/prj_ip.runs/dbg_hub_synth_1/1993/src/syn_arit.vhdÎ
+56Çc:/Users/Andrea/Documents/GitHub/Protocolos/TPs/TP1/TP1_vio_ila/TP1_vio_ila.runs/impl_1/.Xil/Vivado-3968-DESKTOP-MT4FC8D/dc_drv.0/dc/prj_ip.gen/sources_1/ip/dbg_hub/hdl/blk_mem_gen_v8_3_vhsyn_rfs.vhd½
+63¶c:/Users/Andrea/Documents/GitHub/Protocolos/TPs/TP1/TP1_vio_ila/TP1_vio_ila.runs/impl_1/.Xil/Vivado-3968-DESKTOP-MT4FC8D/dc_drv.0/dc/prj_ip.runs/dbg_hub_synth_1/1993/src/timing_b.vhdÊ
+44Ãc:/Users/Andrea/Documents/GitHub/Protocolos/TPs/TP1/TP1_vio_ila/TP1_vio_ila.runs/impl_1/.Xil/Vivado-3968-DESKTOP-MT4FC8D/dc_drv.0/dc/prj_ip.gen/sources_1/ip/dbg_hub/hdl/verilog/xsdbm_v3_0_3_bs.vh»
+61´c:/Users/Andrea/Documents/GitHub/Protocolos/TPs/TP1/TP1_vio_ila/TP1_vio_ila.runs/impl_1/.Xil/Vivado-3968-DESKTOP-MT4FC8D/dc_drv.0/dc/prj_ip.runs/dbg_hub_synth_1/1993/src/textio.vhdÒ
+57Ëc:/Users/Andrea/Documents/GitHub/Protocolos/TPs/TP1/TP1_vio_ila/TP1_vio_ila.runs/impl_1/.Xil/Vivado-3968-DESKTOP-MT4FC8D/dc_drv.0/dc/prj_ip.gen/sources_1/ip/dbg_hub/hdl/fifo_generator_v13_1_vhsyn_rfs.vhdI
+18CC:/Xilinx/tools/Vivado/2024.2/data/vhdl/src/unimacro/MULT_MACRO.vhdÎ
+52Çc:/Users/Andrea/Documents/GitHub/Protocolos/TPs/TP1/TP1_vio_ila/TP1_vio_ila.runs/impl_1/.Xil/Vivado-3968-DESKTOP-MT4FC8D/dc_drv.0/dc/prj_ip.gen/sources_1/ip/dbg_hub/hdl/verilog/xsdbm_v3_0_3_id_map.vhË
+40Äc:/Users/Andrea/Documents/GitHub/Protocolos/TPs/TP1/TP1_vio_ila/TP1_vio_ila.runs/impl_1/.Xil/Vivado-3968-DESKTOP-MT4FC8D/dc_drv.0/dc/prj_ip.gen/sources_1/ip/dbg_hub/hdl/verilog/xsdbm_v3_0_3_i2x.vhN
+23HC:/Xilinx/tools/Vivado/2024.2/data/verilog/src/unimacro/BRAM_TDP_MACRO.v
+NumFileNames70Î
+47Çc:/Users/Andrea/Documents/GitHub/Protocolos/TPs/TP1/TP1_vio_ila/TP1_vio_ila.runs/impl_1/.Xil/Vivado-3968-DESKTOP-MT4FC8D/dc_drv.0/dc/prj_ip.gen/sources_1/ip/dbg_hub/hdl/verilog/xsdbm_v3_0_3_bs_ext.vhÒ
+43Ëc:/Users/Andrea/Documents/GitHub/Protocolos/TPs/TP1/TP1_vio_ila/TP1_vio_ila.runs/impl_1/.Xil/Vivado-3968-DESKTOP-MT4FC8D/dc_drv.0/dc/prj_ip.gen/sources_1/ip/dbg_hub/hdl/verilog/xsdbm_v3_0_3_bsid_ports.vhN
+21HC:/Xilinx/tools/Vivado/2024.2/data/verilog/src/unimacro/BRAM_SDP_MACRO.vË
+41Äc:/Users/Andrea/Documents/GitHub/Protocolos/TPs/TP1/TP1_vio_ila/TP1_vio_ila.runs/impl_1/.Xil/Vivado-3968-DESKTOP-MT4FC8D/dc_drv.0/dc/prj_ip.gen/sources_1/ip/dbg_hub/hdl/verilog/xsdbm_v3_0_3_icn.vhL
+6GC:/Xilinx/tools/Vivado/2024.2/data/vhdl/src/unimacro/unimacro_VCOMP.vhdQ
+22KC:/Xilinx/tools/Vivado/2024.2/data/verilog/src/unimacro/BRAM_SINGLE_MACRO.vT
+27NC:/Xilinx/tools/Vivado/2024.2/data/verilog/src/unimacro/FIFO_DUALCLOCK_MACRO.vJ
+29DC:/Xilinx/tools/Vivado/2024.2/data/verilog/src/unimacro/MACC_MACRO.vC
+1>C:/Xilinx/tools/Vivado/2024.2/scripts/rt/data/unisim_VCOMP.vhdB
+2=C:/Xilinx/tools/Vivado/2024.2/scripts/rt/data/unisim_VPKG.vhdP
+25JC:/Xilinx/tools/Vivado/2024.2/data/verilog/src/unimacro/COUNTER_TC_MACRO.vO
+14IC:/Xilinx/tools/Vivado/2024.2/data/vhdl/src/unimacro/EQ_COMPARE_MACRO.vhdL
+9GC:/Xilinx/tools/Vivado/2024.2/data/vhdl/src/unimacro/BRAM_SDP_MACRO.vhdÎ
+37Çc:/Users/Andrea/Documents/GitHub/Protocolos/TPs/TP1/TP1_vio_ila/TP1_vio_ila.runs/impl_1/.Xil/Vivado-3968-DESKTOP-MT4FC8D/dc_drv.0/dc/prj_ip.gen/sources_1/ip/dbg_hub/hdl/verilog/ltlib_v1_0_2_lib_fn.vhM
+19GC:/Xilinx/tools/Vivado/2024.2/data/verilog/src/unimacro/ADDMACC_MACRO.v½
+58¶c:/Users/Andrea/Documents/GitHub/Protocolos/TPs/TP1/TP1_vio_ila/TP1_vio_ila.runs/impl_1/.Xil/Vivado-3968-DESKTOP-MT4FC8D/dc_drv.0/dc/prj_ip.runs/dbg_hub_synth_1/1993/src/std_1164.vhdÒ
+53Ëc:/Users/Andrea/Documents/GitHub/Protocolos/TPs/TP1/TP1_vio_ila/TP1_vio_ila.runs/impl_1/.Xil/Vivado-3968-DESKTOP-MT4FC8D/dc_drv.0/dc/prj_ip.gen/sources_1/ip/dbg_hub/hdl/verilog/xsdbm_v3_0_3_id_vec_map.vh9
+54C:/Xilinx/tools/Vivado/2024.2/scripts/rt/data/BUFT.vY
+
+synthStatsK
+caseNotFullNoDefault
+Mnullname
+
+L11993
+F38
+O
+next_state¨-
+ElaboratedNamesForRQSŽ-
+DSP_RAMR
+3321857G {inst/BSCANID.u_xsdbm_id/SWITCH_N_EXT_BSCAN.bscan_switch/shiftreg0_i} K
+3760129@ {inst/BSCANID.u_xsdbm_id/CORE_XSDB.U_ICON/U_CMD/CORE_ID_SEL_i} q
+50810881e {inst/BSCANID.u_xsdbm_id/CORE_XSDB.UUT_MASTER/U_XSDB_BUS_MSTR2SL_PORT_IFACE/fn_mult_drdy_return1_i} æ
+9691137Ú {inst/BSCANID.u_xsdbm_id/CORE_XSDB.UUT_MASTER/U_ICON_INTERFACE/U_ICON_INTERFACE_SEL_MASK/SL_DEN_MASK_O0_i} {inst/BSCANID.u_xsdbm_id/CORE_XSDB.UUT_MASTER/U_ICON_INTERFACE/U_ICON_INTERFACE_SEL_MASK/SL_DEN_MASK_O0_i__0} K
+11571201? {inst/BSCANID.u_xsdbm_id/CORE_XSDB.U_ICON/U_SYNC/iGOT_SYNC_i} g
+47640577[ {inst/BSCANID.u_xsdbm_id/CORE_XSDB.UUT_MASTER/U_XSDB_BURST_WD_LEN_CONTROLLER/burst_wd0_i} ^
+47276033R {inst/BSCANID.u_xsdbm_id/CORE_XSDB.UUT_MASTER/U_XSDB_ADDRESS_CONTROLLER/addr0_i} i
+7303169^ {inst/BSCANID.u_xsdbm_id/CORE_XSDB.UUT_MASTER/U_ICON_INTERFACE/U_CMD6_WR/shift_bit_count0_i} K
+3878913@ {inst/BSCANID.u_xsdbm_id/CORE_XSDB.U_ICON/U_CMD/COMMAND_SEL_i} c
+50216961W {inst/BSCANID.u_xsdbm_id/CORE_XSDB.UUT_MASTER/U_XSDB_BUS_CONTROLLER/U_TIMER/count0_i} L
+11280385@ {inst/BSCANID.u_xsdbm_id/CORE_XSDB.U_ICON/U_STAT/iSTAT_CNT0_i} d
+50221057X {inst/BSCANID.u_xsdbm_id/CORE_XSDB.UUT_MASTER/U_XSDB_BUS_CONTROLLER/U_TIMER/timeout_i} l
+47611905` {inst/BSCANID.u_xsdbm_id/CORE_XSDB.UUT_MASTER/U_XSDB_BURST_WD_LEN_CONTROLLER/wdc_eq_zero_i__2} i
+6819841^ {inst/BSCANID.u_xsdbm_id/CORE_XSDB.UUT_MASTER/U_ICON_INTERFACE/U_CMD6_RD/shift_bit_count0_i} r
+10227713f {inst/BSCANID.u_xsdbm_id/CORE_XSDB.UUT_MASTER/U_ICON_INTERFACE/U_STATIC_STATUS/stat_addr_bit_cnt0_i} i
+47644673] {inst/BSCANID.u_xsdbm_id/CORE_XSDB.UUT_MASTER/U_XSDB_BURST_WD_LEN_CONTROLLER/wdc_eq_zero_i} Q
+3080193F {inst/BSCANID.u_xsdbm_id/SWITCH_N_EXT_BSCAN.bscan_switch/counter0_i} –
+34086915‰ {inst/BSCANID.u_xsdbm_id/CORE_XSDB.UUT_MASTER/U_ICON_INTERFACE/U_CMD6_RD/U_RD_FIFO/SUBCORE_FIFO.xsdbm_v3_0_3_rdfifo_inst/inst_fifo_gen/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.gl0.rd/rpntr/plusOp_i} {inst/BSCANID.u_xsdbm_id/CORE_XSDB.UUT_MASTER/U_ICON_INTERFACE/U_CMD6_WR/U_WR_FIFO/SUBCORE_FIFO.xsdbm_v3_0_3_wrfifo_inst/inst_fifo_gen/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.gl0.rd/rpntr/plusOp_i} d
+6840321Y {inst/BSCANID.u_xsdbm_id/CORE_XSDB.UUT_MASTER/U_ICON_INTERFACE/U_CMD6_RD/cnt_is_zero_i} Ú
+49123329Í {inst/BSCANID.u_xsdbm_id/CORE_XSDB.UUT_MASTER/U_XSDB_BUS_CONTROLLER/active_sl_den_mask_i__0} {inst/BSCANID.u_xsdbm_id/CORE_XSDB.UUT_MASTER/U_XSDB_BUS_CONTROLLER/auto_sl_drdy_i} {inst/BSCANID.u_xsdbm_id/CORE_XSDB.UUT_MASTER/U_XSDB_BUS_CONTROLLER/auto_sl_drdy_i__0} {inst/BSCANID.u_xsdbm_id/CORE_XSDB.UUT_MASTER/U_XSDB_BUS_CONTROLLER/clr_abort_rd_i} {inst/BSCANID.u_xsdbm_id/CORE_XSDB.UUT_MASTER/U_XSDB_BUS_CONTROLLER/clr_abort_rd_i__0} {inst/BSCANID.u_xsdbm_id/CORE_XSDB.UUT_MASTER/U_XSDB_BUS_CONTROLLER/clr_rd_req_i} {inst/BSCANID.u_xsdbm_id/CORE_XSDB.UUT_MASTER/U_XSDB_BUS_CONTROLLER/clr_rd_req_i__0} {inst/BSCANID.u_xsdbm_id/CORE_XSDB.UUT_MASTER/U_XSDB_BUS_CONTROLLER/dec_wdc_r_i} {inst/BSCANID.u_xsdbm_id/CORE_XSDB.UUT_MASTER/U_XSDB_BUS_CONTROLLER/dec_wdc_r_i__0} {inst/BSCANID.u_xsdbm_id/CORE_XSDB.UUT_MASTER/U_XSDB_BUS_CONTROLLER/in_idle_mode_i} {inst/BSCANID.u_xsdbm_id/CORE_XSDB.UUT_MASTER/U_XSDB_BUS_CONTROLLER/in_idle_mode_i__0} {inst/BSCANID.u_xsdbm_id/CORE_XSDB.UUT_MASTER/U_XSDB_BUS_CONTROLLER/in_normal_mode_i} {inst/BSCANID.u_xsdbm_id/CORE_XSDB.UUT_MASTER/U_XSDB_BUS_CONTROLLER/in_normal_mode_i__0} {inst/BSCANID.u_xsdbm_id/CORE_XSDB.UUT_MASTER/U_XSDB_BUS_CONTROLLER/in_read_mode_i} {inst/BSCANID.u_xsdbm_id/CORE_XSDB.UUT_MASTER/U_XSDB_BUS_CONTROLLER/in_read_mode_i__0} {inst/BSCANID.u_xsdbm_id/CORE_XSDB.UUT_MASTER/U_XSDB_BUS_CONTROLLER/in_write_mode_i} {inst/BSCANID.u_xsdbm_id/CORE_XSDB.UUT_MASTER/U_XSDB_BUS_CONTROLLER/in_write_mode_i__0} {inst/BSCANID.u_xsdbm_id/CORE_XSDB.UUT_MASTER/U_XSDB_BUS_CONTROLLER/inc_addr_r_i} {inst/BSCANID.u_xsdbm_id/CORE_XSDB.UUT_MASTER/U_XSDB_BUS_CONTROLLER/inc_addr_r_i__0} {inst/BSCANID.u_xsdbm_id/CORE_XSDB.UUT_MASTER/U_XSDB_BUS_CONTROLLER/ma_err_r_i__0} {inst/BSCANID.u_xsdbm_id/CORE_XSDB.UUT_MASTER/U_XSDB_BUS_CONTROLLER/ma_rd_flush_r_i} {inst/BSCANID.u_xsdbm_id/CORE_XSDB.UUT_MASTER/U_XSDB_BUS_CONTROLLER/ma_rd_flush_r_i__0} {inst/BSCANID.u_xsdbm_id/CORE_XSDB.UUT_MASTER/U_XSDB_BUS_CONTROLLER/ma_wr_pop_r_i} {inst/BSCANID.u_xsdbm_id/CORE_XSDB.UUT_MASTER/U_XSDB_BUS_CONTROLLER/ma_wr_pop_r_i__0} {inst/BSCANID.u_xsdbm_id/CORE_XSDB.UUT_MASTER/U_XSDB_BUS_CONTROLLER/sl_berr_r_i__0} {inst/BSCANID.u_xsdbm_id/CORE_XSDB.UUT_MASTER/U_XSDB_BUS_CONTROLLER/sl_den_r_i__0} {inst/BSCANID.u_xsdbm_id/CORE_XSDB.UUT_MASTER/U_XSDB_BUS_CONTROLLER/sl_dwe_r_i__0} {inst/BSCANID.u_xsdbm_id/CORE_XSDB.UUT_MASTER/U_XSDB_BUS_CONTROLLER/sl_rdmux_sel_r_i__0} {inst/BSCANID.u_xsdbm_id/CORE_XSDB.UUT_MASTER/U_XSDB_BUS_CONTROLLER/sl_rst_r_i__0} {inst/BSCANID.u_xsdbm_id/CORE_XSDB.UUT_MASTER/U_XSDB_BUS_CONTROLLER/timer_rst_i} {inst/BSCANID.u_xsdbm_id/CORE_XSDB.UUT_MASTER/U_XSDB_BUS_CONTROLLER/timer_rst_i__0} –
+33173507‰ {inst/BSCANID.u_xsdbm_id/CORE_XSDB.UUT_MASTER/U_ICON_INTERFACE/U_CMD6_RD/U_RD_FIFO/SUBCORE_FIFO.xsdbm_v3_0_3_rdfifo_inst/inst_fifo_gen/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.gl0.wr/wpntr/plusOp_i} {inst/BSCANID.u_xsdbm_id/CORE_XSDB.UUT_MASTER/U_ICON_INTERFACE/U_CMD6_WR/U_WR_FIFO/SUBCORE_FIFO.xsdbm_v3_0_3_wrfifo_inst/inst_fifo_gen/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.gl0.wr/wpntr/plusOp_i} ž
+21860355‘ {inst/BSCANID.u_xsdbm_id/CORE_XSDB.UUT_MASTER/U_ICON_INTERFACE/U_CMD6_RD/U_RD_FIFO/SUBCORE_FIFO.xsdbm_v3_0_3_rdfifo_inst/inst_fifo_gen/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.mem/gdm.dm_gen.dm/RAM_reg} {inst/BSCANID.u_xsdbm_id/CORE_XSDB.UUT_MASTER/U_ICON_INTERFACE/U_CMD6_WR/U_WR_FIFO/SUBCORE_FIFO.xsdbm_v3_0_3_wrfifo_inst/inst_fifo_gen/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.mem/gdm.dm_gen.dm/RAM_reg} 
+blackBoxInfoç
+synth_design
+resynthPerc0.00
+blackBoxPerc	-nan(ind)µ
+args¬-define default::[not_specified] -verilog_define default::[not_specified] -vhdl_define default::[not_specified] -top  dbg_hub -part  xc7a100tcsg324-1 -incremental_mode off 
+Runtime7
+Cputime5
+isIncremental0
+	directive 
+Threads used2œ
+synth_design_metrics
+NumUnregisteredPorts0
+lowMaxFanout-1
+	smallSrls-1
+caseNotFullNoDefault1$
+mismatchedAddSubOperatorWidths-1
+shallowRAMWithAttribute-1
+NetsWithMixedFanouts-1
+bigRAMs-1
+hierMFO0
+DSPsWithKeep0
+srlsWithResetLogic-1
+RQS_Results

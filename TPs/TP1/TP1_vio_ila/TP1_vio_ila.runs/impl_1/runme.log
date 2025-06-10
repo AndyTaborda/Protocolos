@@ -1,0 +1,272 @@
+
+*** Running vivado
+    with args -log top.vdi -applog -m64 -product Vivado -messageDb vivado.pb -mode batch -source top.tcl -notrace
+
+
+
+****** Vivado v2024.2 (64-bit)
+  **** SW Build 5239630 on Fri Nov 08 22:35:27 MST 2024
+  **** IP Build 5239520 on Sun Nov 10 16:12:51 MST 2024
+  **** SharedData Build 5239561 on Fri Nov 08 14:39:27 MST 2024
+  **** Start of session at: Tue Jun  3 21:58:35 2025
+    ** Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+    ** Copyright 2022-2024 Advanced Micro Devices, Inc. All Rights Reserved.
+
+source top.tcl -notrace
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Xilinx/tools/Vivado/2024.2/data/ip'.
+add_files: Time (s): cpu = 00:00:07 ; elapsed = 00:00:08 . Memory (MB): peak = 336.004 ; gain = 25.082
+Command: link_design -top top -part xc7a100tcsg324-1
+Design is defaulting to srcset: sources_1
+Design is defaulting to constrset: constrs_1
+INFO: [Device 21-403] Loading part xc7a100tcsg324-1
+INFO: [Project 1-454] Reading design checkpoint 'c:/Users/Andrea/Documents/GitHub/Protocolos/TPs/TP1/TP1_vio_ila/TP1_vio_ila.gen/sources_1/bd/ILA/ip/ILA_ila_0_0/ILA_ila_0_0.dcp' for cell 'u_ILA/ila_0'
+INFO: [Project 1-454] Reading design checkpoint 'c:/Users/Andrea/Documents/GitHub/Protocolos/TPs/TP1/TP1_vio_ila/TP1_vio_ila.gen/sources_1/bd/VIO/ip/VIO_vio_0_0/VIO_vio_0_0.dcp' for cell 'u_VIO/vio_0'
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.234 . Memory (MB): peak = 585.426 ; gain = 0.000
+INFO: [Netlist 29-17] Analyzing 67 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 1 CPU seconds
+INFO: [Project 1-479] Netlist was created with Vivado 2024.2
+INFO: [Project 1-570] Preparing netlist for logic optimization
+INFO: [Chipscope 16-324] Core: u_ILA/ila_0 UUID: 987f9b9a-7a2c-563e-8c8e-7b9b66d0e8a2 
+INFO: [Chipscope 16-324] Core: u_VIO/vio_0 UUID: 9a9e46e4-7b4d-530d-9bc1-87fae1372591 
+Parsing XDC File [c:/Users/Andrea/Documents/GitHub/Protocolos/TPs/TP1/TP1_vio_ila/TP1_vio_ila.gen/sources_1/bd/VIO/ip/VIO_vio_0_0/VIO_vio_0_0.xdc] for cell 'u_VIO/vio_0'
+Finished Parsing XDC File [c:/Users/Andrea/Documents/GitHub/Protocolos/TPs/TP1/TP1_vio_ila/TP1_vio_ila.gen/sources_1/bd/VIO/ip/VIO_vio_0_0/VIO_vio_0_0.xdc] for cell 'u_VIO/vio_0'
+Parsing XDC File [c:/Users/Andrea/Documents/GitHub/Protocolos/TPs/TP1/TP1_vio_ila/TP1_vio_ila.gen/sources_1/bd/ILA/ip/ILA_ila_0_0/ila_v6_2/constraints/ila_impl.xdc] for cell 'u_ILA/ila_0/inst'
+Finished Parsing XDC File [c:/Users/Andrea/Documents/GitHub/Protocolos/TPs/TP1/TP1_vio_ila/TP1_vio_ila.gen/sources_1/bd/ILA/ip/ILA_ila_0_0/ila_v6_2/constraints/ila_impl.xdc] for cell 'u_ILA/ila_0/inst'
+Parsing XDC File [c:/Users/Andrea/Documents/GitHub/Protocolos/TPs/TP1/TP1_vio_ila/TP1_vio_ila.gen/sources_1/bd/ILA/ip/ILA_ila_0_0/ila_v6_2/constraints/ila.xdc] for cell 'u_ILA/ila_0/inst'
+Finished Parsing XDC File [c:/Users/Andrea/Documents/GitHub/Protocolos/TPs/TP1/TP1_vio_ila/TP1_vio_ila.gen/sources_1/bd/ILA/ip/ILA_ila_0_0/ila_v6_2/constraints/ila.xdc] for cell 'u_ILA/ila_0/inst'
+Parsing XDC File [C:/Users/Andrea/Documents/GitHub/Protocolos/TPs/TP1/Arty-A7-35-Master.xdc]
+WARNING: [Vivado 12-584] No ports matched 'led0_b'. [C:/Users/Andrea/Documents/GitHub/Protocolos/TPs/TP1/Arty-A7-35-Master.xdc:17]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/Andrea/Documents/GitHub/Protocolos/TPs/TP1/Arty-A7-35-Master.xdc:17]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'led0_g'. [C:/Users/Andrea/Documents/GitHub/Protocolos/TPs/TP1/Arty-A7-35-Master.xdc:18]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/Andrea/Documents/GitHub/Protocolos/TPs/TP1/Arty-A7-35-Master.xdc:18]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'led1_b'. [C:/Users/Andrea/Documents/GitHub/Protocolos/TPs/TP1/Arty-A7-35-Master.xdc:20]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/Andrea/Documents/GitHub/Protocolos/TPs/TP1/Arty-A7-35-Master.xdc:20]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'led1_g'. [C:/Users/Andrea/Documents/GitHub/Protocolos/TPs/TP1/Arty-A7-35-Master.xdc:21]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/Andrea/Documents/GitHub/Protocolos/TPs/TP1/Arty-A7-35-Master.xdc:21]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'led2_b'. [C:/Users/Andrea/Documents/GitHub/Protocolos/TPs/TP1/Arty-A7-35-Master.xdc:23]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/Andrea/Documents/GitHub/Protocolos/TPs/TP1/Arty-A7-35-Master.xdc:23]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'led2_g'. [C:/Users/Andrea/Documents/GitHub/Protocolos/TPs/TP1/Arty-A7-35-Master.xdc:24]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/Andrea/Documents/GitHub/Protocolos/TPs/TP1/Arty-A7-35-Master.xdc:24]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'led3_b'. [C:/Users/Andrea/Documents/GitHub/Protocolos/TPs/TP1/Arty-A7-35-Master.xdc:26]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/Andrea/Documents/GitHub/Protocolos/TPs/TP1/Arty-A7-35-Master.xdc:26]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'led3_g'. [C:/Users/Andrea/Documents/GitHub/Protocolos/TPs/TP1/Arty-A7-35-Master.xdc:27]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/Andrea/Documents/GitHub/Protocolos/TPs/TP1/Arty-A7-35-Master.xdc:27]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'uart_rxd_out'. [C:/Users/Andrea/Documents/GitHub/Protocolos/TPs/TP1/Arty-A7-35-Master.xdc:83]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/Andrea/Documents/GitHub/Protocolos/TPs/TP1/Arty-A7-35-Master.xdc:83]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'uart_txd_in'. [C:/Users/Andrea/Documents/GitHub/Protocolos/TPs/TP1/Arty-A7-35-Master.xdc:84]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/Andrea/Documents/GitHub/Protocolos/TPs/TP1/Arty-A7-35-Master.xdc:84]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+Finished Parsing XDC File [C:/Users/Andrea/Documents/GitHub/Protocolos/TPs/TP1/Arty-A7-35-Master.xdc]
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+INFO: [Project 1-1687] 2 scoped IP constraints or related sub-commands were skipped due to synthesis logic optimizations usually triggered by constant connectivity or unconnected output pins. To review the skipped constraints and messages, run the command 'set_param netlist.IPMsgFiltering false' before opening the design.
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.007 . Memory (MB): peak = 725.332 ; gain = 0.000
+INFO: [Project 1-111] Unisim Transformation Summary:
+  A total of 40 instances were transformed.
+  CFGLUT5 => CFGLUT5 (SRL16E, SRLC32E): 40 instances
+
+15 Infos, 10 Warnings, 10 Critical Warnings and 0 Errors encountered.
+link_design completed successfully
+link_design: Time (s): cpu = 00:00:36 ; elapsed = 00:00:44 . Memory (MB): peak = 725.332 ; gain = 389.328
+Command: opt_design
+Attempting to get a license for feature 'Implementation' and/or device 'xc7a100t'
+INFO: [Common 17-349] Got license for feature 'Implementation' and/or device 'xc7a100t'
+Running DRC as a precondition to command opt_design
+
+Starting DRC Task
+INFO: [DRC 23-27] Running DRC with 2 threads
+INFO: [Project 1-461] DRC finished with 0 Errors
+INFO: [Project 1-462] Please refer to the DRC report (report_drc) for more information.
+
+Time (s): cpu = 00:00:11 ; elapsed = 00:00:08 . Memory (MB): peak = 758.281 ; gain = 32.949
+
+Starting Cache Timing Information Task
+INFO: [Timing 38-35] Done setting XDC timing constraints.
+Ending Cache Timing Information Task | Checksum: 1db91f67c
+
+Time (s): cpu = 00:00:39 ; elapsed = 00:00:49 . Memory (MB): peak = 1311.492 ; gain = 553.211
+
+Starting Logic Optimization Task
+
+Phase 1 Initialization
+
+Phase 1.1 Core Generation And Design Setup
+
+Phase 1.1.1 Generate And Synthesize Debug Cores
+INFO: [Chipscope 16-329] Generating Script for core instance : dbg_hub 
+INFO: [IP_Flow 19-3806] Processing IP xilinx.com:ip:xsdbm:3.0 for cell dbg_hub_CV.
+INFO: [Chipscope 16-469] Using cached IP synthesis design for IP xilinx.com:ip:xsdbm:3.0, cache-ID = a66dac9d6fd14a3d.
+Done building netlist checker database: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.006 . Memory (MB): peak = 1737.320 ; gain = 0.000
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.159 . Memory (MB): peak = 1737.320 ; gain = 0.000
+Phase 1.1.1 Generate And Synthesize Debug Cores | Checksum: 265090799
+
+Time (s): cpu = 00:00:08 ; elapsed = 00:04:30 . Memory (MB): peak = 1737.320 ; gain = 21.352
+Phase 1.1 Core Generation And Design Setup | Checksum: 265090799
+
+Time (s): cpu = 00:00:08 ; elapsed = 00:04:30 . Memory (MB): peak = 1737.320 ; gain = 21.352
+
+Phase 1.2 Setup Constraints And Sort Netlist
+Phase 1.2 Setup Constraints And Sort Netlist | Checksum: 265090799
+
+Time (s): cpu = 00:00:08 ; elapsed = 00:04:30 . Memory (MB): peak = 1737.320 ; gain = 21.352
+Phase 1 Initialization | Checksum: 265090799
+
+Time (s): cpu = 00:00:08 ; elapsed = 00:04:30 . Memory (MB): peak = 1737.320 ; gain = 21.352
+
+Phase 2 Timer Update And Timing Data Collection
+
+Phase 2.1 Timer Update
+Phase 2.1 Timer Update | Checksum: 265090799
+
+Time (s): cpu = 00:00:09 ; elapsed = 00:04:31 . Memory (MB): peak = 1737.320 ; gain = 21.352
+
+Phase 2.2 Timing Data Collection
+Phase 2.2 Timing Data Collection | Checksum: 265090799
+
+Time (s): cpu = 00:00:09 ; elapsed = 00:04:31 . Memory (MB): peak = 1737.320 ; gain = 21.352
+Phase 2 Timer Update And Timing Data Collection | Checksum: 265090799
+
+Time (s): cpu = 00:00:09 ; elapsed = 00:04:31 . Memory (MB): peak = 1737.320 ; gain = 21.352
+
+Phase 3 Retarget
+INFO: [Opt 31-1851] Number of loadless carry chains removed were: 0
+INFO: [Opt 31-1834] Total Chains To Be Transformed Were: 0 AND Number of Transformed insts Created are: 0
+INFO: [Opt 31-138] Pushed 1 inverter(s) to 1 load pin(s).
+INFO: [Opt 31-49] Retargeted 0 cell(s).
+Phase 3 Retarget | Checksum: 2903fa1d5
+
+Time (s): cpu = 00:00:09 ; elapsed = 00:04:32 . Memory (MB): peak = 1737.320 ; gain = 21.352
+Retarget | Checksum: 2903fa1d5
+INFO: [Opt 31-389] Phase Retarget created 5 cells and removed 12 cells
+INFO: [Opt 31-1021] In phase Retarget, 77 netlist objects are constrained preventing optimization. Please run opt_design with -debug_log to get more detail. 
+
+Phase 4 Constant propagation
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+Phase 4 Constant propagation | Checksum: 25b48d7f5
+
+Time (s): cpu = 00:00:09 ; elapsed = 00:04:32 . Memory (MB): peak = 1737.320 ; gain = 21.352
+Constant propagation | Checksum: 25b48d7f5
+INFO: [Opt 31-389] Phase Constant propagation created 0 cells and removed 16 cells
+INFO: [Opt 31-1021] In phase Constant propagation, 61 netlist objects are constrained preventing optimization. Please run opt_design with -debug_log to get more detail. 
+
+Phase 5 Sweep
+INFO: [Constraints 18-11670] Building netlist checker database with flags, 0x8
+Done building netlist checker database: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.007 . Memory (MB): peak = 1737.320 ; gain = 0.000
+INFO: [Constraints 18-11670] Building netlist checker database with flags, 0x8
+Done building netlist checker database: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.020 . Memory (MB): peak = 1737.320 ; gain = 0.000
+Phase 5 Sweep | Checksum: 20d4c73aa
+
+Time (s): cpu = 00:00:10 ; elapsed = 00:04:33 . Memory (MB): peak = 1737.320 ; gain = 21.352
+Sweep | Checksum: 20d4c73aa
+INFO: [Opt 31-389] Phase Sweep created 0 cells and removed 54 cells
+INFO: [Opt 31-1021] In phase Sweep, 1236 netlist objects are constrained preventing optimization. Please run opt_design with -debug_log to get more detail. 
+
+Phase 6 BUFG optimization
+Phase 6 BUFG optimization | Checksum: 20d4c73aa
+
+Time (s): cpu = 00:00:10 ; elapsed = 00:04:33 . Memory (MB): peak = 1737.320 ; gain = 21.352
+BUFG optimization | Checksum: 20d4c73aa
+INFO: [Opt 31-662] Phase BUFG optimization created 0 cells of which 0 are BUFGs and removed 0 cells.
+
+Phase 7 Shift Register Optimization
+INFO: [Opt 31-1064] SRL Remap converted 0 SRLs to 0 registers and converted 0 registers of register chains to 0 SRLs
+Phase 7 Shift Register Optimization | Checksum: 20d4c73aa
+
+Time (s): cpu = 00:00:11 ; elapsed = 00:04:33 . Memory (MB): peak = 1737.320 ; gain = 21.352
+Shift Register Optimization | Checksum: 20d4c73aa
+INFO: [Opt 31-389] Phase Shift Register Optimization created 0 cells and removed 0 cells
+
+Phase 8 Post Processing Netlist
+Phase 8 Post Processing Netlist | Checksum: 20d4c73aa
+
+Time (s): cpu = 00:00:11 ; elapsed = 00:04:33 . Memory (MB): peak = 1737.320 ; gain = 21.352
+Post Processing Netlist | Checksum: 20d4c73aa
+INFO: [Opt 31-389] Phase Post Processing Netlist created 0 cells and removed 0 cells
+INFO: [Opt 31-1021] In phase Post Processing Netlist, 69 netlist objects are constrained preventing optimization. Please run opt_design with -debug_log to get more detail. 
+
+Phase 9 Finalization
+
+Phase 9.1 Finalizing Design Cores and Updating Shapes
+Phase 9.1 Finalizing Design Cores and Updating Shapes | Checksum: 2fb1f5294
+
+Time (s): cpu = 00:00:11 ; elapsed = 00:04:34 . Memory (MB): peak = 1737.320 ; gain = 21.352
+
+Phase 9.2 Verifying Netlist Connectivity
+
+Starting Connectivity Check Task
+
+Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.074 . Memory (MB): peak = 1737.320 ; gain = 0.000
+Phase 9.2 Verifying Netlist Connectivity | Checksum: 2fb1f5294
+
+Time (s): cpu = 00:00:11 ; elapsed = 00:04:34 . Memory (MB): peak = 1737.320 ; gain = 21.352
+Phase 9 Finalization | Checksum: 2fb1f5294
+
+Time (s): cpu = 00:00:11 ; elapsed = 00:04:34 . Memory (MB): peak = 1737.320 ; gain = 21.352
+Opt_design Change Summary
+=========================
+
+
+-------------------------------------------------------------------------------------------------------------------------
+|  Phase                        |  #Cells created  |  #Cells Removed  |  #Constrained objects preventing optimizations  |
+-------------------------------------------------------------------------------------------------------------------------
+|  Retarget                     |               5  |              12  |                                             77  |
+|  Constant propagation         |               0  |              16  |                                             61  |
+|  Sweep                        |               0  |              54  |                                           1236  |
+|  BUFG optimization            |               0  |               0  |                                              0  |
+|  Shift Register Optimization  |               0  |               0  |                                              0  |
+|  Post Processing Netlist      |               0  |               0  |                                             69  |
+-------------------------------------------------------------------------------------------------------------------------
+
+
+Ending Logic Optimization Task | Checksum: 2fb1f5294
+
+Time (s): cpu = 00:00:11 ; elapsed = 00:04:34 . Memory (MB): peak = 1737.320 ; gain = 21.352
+
+Starting Power Optimization Task
+INFO: [Pwropt 34-132] Skipping clock gating for clocks with a period < 2.00 ns.
+INFO: [Pwropt 34-9] Applying IDT optimizations ...
+INFO: [Pwropt 34-10] Applying ODC optimizations ...
+INFO: [Timing 38-35] Done setting XDC timing constraints.
+Running Vector-less Activity Propagation...
+
+Finished Running Vector-less Activity Propagation
+
+
+Starting PowerOpt Patch Enables Task
+INFO: [Pwropt 34-162] WRITE_MODE attribute of 0 BRAM(s) out of a total of 1 has been updated to save power. Run report_power_opt to get a complete listing of the BRAMs updated.
+INFO: [Pwropt 34-201] Structural ODC has moved 0 WE to EN ports
+Number of BRAM Ports augmented: 1 newly gated: 0 Total Ports: 2
+Ending PowerOpt Patch Enables Task | Checksum: 2fb4c3f51
+
+Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.093 . Memory (MB): peak = 1801.094 ; gain = 0.000
+Ending Power Optimization Task | Checksum: 2fb4c3f51
+
+Time (s): cpu = 00:00:07 ; elapsed = 00:00:07 . Memory (MB): peak = 1801.094 ; gain = 63.773
+
+Starting Final Cleanup Task
+Ending Final Cleanup Task | Checksum: 2fb4c3f51
+
+Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.004 . Memory (MB): peak = 1801.094 ; gain = 0.000
+
+Starting Netlist Obfuscation Task
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.011 . Memory (MB): peak = 1801.094 ; gain = 0.000
+Ending Netlist Obfuscation Task | Checksum: 276d0e8c5
+
+Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.015 . Memory (MB): peak = 1801.094 ; gain = 0.000
+INFO: [Common 17-83] Releasing license: Implementation
+52 Infos, 10 Warnings, 10 Critical Warnings and 0 Errors encountered.
+opt_design completed successfully
+opt_design: Time (s): cpu = 00:01:26 ; elapsed = 00:06:02 . Memory (MB): peak = 1801.094 ; gain = 1075.762
+INFO: [Vivado 12-24828] Executing command : report_drc -file top_drc_opted.rpt -pb top_drc_opted.pb -rpx top_drc_opted.rpx
+Command: report_drc -file top_drc_opted.rpt -pb top_drc_opted.pb -rpx top_drc_opted.rpx
+INFO: [IP_Flow 19-1839] IP Catalog is up to date.

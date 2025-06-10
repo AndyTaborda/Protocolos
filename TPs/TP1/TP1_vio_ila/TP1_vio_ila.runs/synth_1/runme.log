@@ -1,0 +1,279 @@
+
+*** Running vivado
+    with args -log top.vds -m64 -product Vivado -mode batch -messageDb vivado.pb -notrace -source top.tcl
+
+
+
+****** Vivado v2024.2 (64-bit)
+  **** SW Build 5239630 on Fri Nov 08 22:35:27 MST 2024
+  **** IP Build 5239520 on Sun Nov 10 16:12:51 MST 2024
+  **** SharedData Build 5239561 on Fri Nov 08 14:39:27 MST 2024
+  **** Start of session at: Tue Jun  3 21:52:59 2025
+    ** Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+    ** Copyright 2022-2024 Advanced Micro Devices, Inc. All Rights Reserved.
+
+source top.tcl -notrace
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Xilinx/tools/Vivado/2024.2/data/ip'.
+add_files: Time (s): cpu = 00:00:07 ; elapsed = 00:00:07 . Memory (MB): peak = 334.023 ; gain = 26.703
+Command: read_checkpoint -auto_incremental -incremental C:/Users/Andrea/Documents/GitHub/Protocolos/TPs/TP1/TP1_vio_ila/TP1_vio_ila.srcs/utils_1/imports/synth_1/top.dcp
+INFO: [Vivado 12-5825] Read reference checkpoint from C:/Users/Andrea/Documents/GitHub/Protocolos/TPs/TP1/TP1_vio_ila/TP1_vio_ila.srcs/utils_1/imports/synth_1/top.dcp for incremental synthesis
+INFO: [Vivado 12-7989] Please ensure there are no constraint changes
+Command: synth_design -top top -part xc7a100tcsg324-1
+Starting synth_design
+Attempting to get a license for feature 'Synthesis' and/or device 'xc7a100t'
+INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xc7a100t'
+INFO: [Device 21-403] Loading part xc7a100tcsg324-1
+INFO: [Designutils 20-5440] No compile time benefit to using incremental synthesis; A full resynthesis will be run
+INFO: [Designutils 20-4379] Flow is switching to default flow due to incremental criteria not met. If you would like to alter this behaviour and have the flow terminate instead, please set the following parameter config_implementation {autoIncr.Synth.RejectBehavior Terminate}
+INFO: [Synth 8-7079] Multithreading enabled for synth_design using a maximum of 2 processes.
+INFO: [Synth 8-7078] Launching helper process for spawning children vivado processes
+INFO: [Synth 8-7075] Helper process launched with PID 5452
+---------------------------------------------------------------------------------
+Starting RTL Elaboration : Time (s): cpu = 00:00:37 ; elapsed = 00:00:56 . Memory (MB): peak = 1010.293 ; gain = 468.977
+---------------------------------------------------------------------------------
+INFO: [Synth 8-6157] synthesizing module 'top' [C:/Users/Andrea/Documents/GitHub/Protocolos/TPs/TP1/top_VIO_ILA.v:1]
+INFO: [Synth 8-6157] synthesizing module 'count' [C:/Users/Andrea/Documents/GitHub/Protocolos/TPs/TP1/count.v:1]
+	Parameter NB_SW bound to: 3 - type: integer 
+	Parameter NB_COUNTER bound to: 16 - type: integer 
+INFO: [Synth 8-6155] done synthesizing module 'count' (0#1) [C:/Users/Andrea/Documents/GitHub/Protocolos/TPs/TP1/count.v:1]
+INFO: [Synth 8-6157] synthesizing module 'shiftreg' [C:/Users/Andrea/Documents/GitHub/Protocolos/TPs/TP1/shiftreg.v:1]
+	Parameter NB_LEDS bound to: 4 - type: integer 
+INFO: [Synth 8-6155] done synthesizing module 'shiftreg' (0#1) [C:/Users/Andrea/Documents/GitHub/Protocolos/TPs/TP1/shiftreg.v:1]
+WARNING: [Synth 8-4446] all outputs are unconnected for this instance and logic may be removed [C:/Users/Andrea/Documents/GitHub/Protocolos/TPs/TP1/top_VIO_ILA.v:58]
+INFO: [Synth 8-6157] synthesizing module 'ILA' [c:/Users/Andrea/Documents/GitHub/Protocolos/TPs/TP1/TP1_vio_ila/TP1_vio_ila.gen/sources_1/bd/ILA/synth/ILA.v:13]
+WARNING: [Synth 8-4446] all outputs are unconnected for this instance and logic may be removed [c:/Users/Andrea/Documents/GitHub/Protocolos/TPs/TP1/TP1_vio_ila/TP1_vio_ila.gen/sources_1/bd/ILA/synth/ILA.v:29]
+INFO: [Synth 8-6157] synthesizing module 'ILA_ila_0_0' [C:/Users/Andrea/Documents/GitHub/Protocolos/TPs/TP1/TP1_vio_ila/TP1_vio_ila.runs/synth_1/.Xil/Vivado-8868-DESKTOP-MT4FC8D/realtime/ILA_ila_0_0_stub.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'ILA_ila_0_0' (0#1) [C:/Users/Andrea/Documents/GitHub/Protocolos/TPs/TP1/TP1_vio_ila/TP1_vio_ila.runs/synth_1/.Xil/Vivado-8868-DESKTOP-MT4FC8D/realtime/ILA_ila_0_0_stub.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'ILA' (0#1) [c:/Users/Andrea/Documents/GitHub/Protocolos/TPs/TP1/TP1_vio_ila/TP1_vio_ila.gen/sources_1/bd/ILA/synth/ILA.v:13]
+INFO: [Synth 8-6157] synthesizing module 'VIO' [c:/Users/Andrea/Documents/GitHub/Protocolos/TPs/TP1/TP1_vio_ila/TP1_vio_ila.gen/sources_1/bd/VIO/synth/VIO.v:13]
+INFO: [Synth 8-6157] synthesizing module 'VIO_vio_0_0' [C:/Users/Andrea/Documents/GitHub/Protocolos/TPs/TP1/TP1_vio_ila/TP1_vio_ila.runs/synth_1/.Xil/Vivado-8868-DESKTOP-MT4FC8D/realtime/VIO_vio_0_0_stub.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'VIO_vio_0_0' (0#1) [C:/Users/Andrea/Documents/GitHub/Protocolos/TPs/TP1/TP1_vio_ila/TP1_vio_ila.runs/synth_1/.Xil/Vivado-8868-DESKTOP-MT4FC8D/realtime/VIO_vio_0_0_stub.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'VIO' (0#1) [c:/Users/Andrea/Documents/GitHub/Protocolos/TPs/TP1/TP1_vio_ila/TP1_vio_ila.gen/sources_1/bd/VIO/synth/VIO.v:13]
+INFO: [Synth 8-6155] done synthesizing module 'top' (0#1) [C:/Users/Andrea/Documents/GitHub/Protocolos/TPs/TP1/top_VIO_ILA.v:1]
+INFO: [Synth 8-6071] Mark debug on the nets applies keep_hierarchy on instance 'u_ILA'. This will prevent further optimization [C:/Users/Andrea/Documents/GitHub/Protocolos/TPs/TP1/top_VIO_ILA.v:58]
+INFO: [Synth 8-6071] Mark debug on the nets applies keep_hierarchy on instance 'ila_0'. This will prevent further optimization [c:/Users/Andrea/Documents/GitHub/Protocolos/TPs/TP1/TP1_vio_ila/TP1_vio_ila.gen/sources_1/bd/ILA/synth/ILA.v:29]
+INFO: [Synth 8-6071] Mark debug on the nets applies keep_hierarchy on instance 'vio_0'. This will prevent further optimization [c:/Users/Andrea/Documents/GitHub/Protocolos/TPs/TP1/TP1_vio_ila/TP1_vio_ila.gen/sources_1/bd/VIO/synth/VIO.v:45]
+---------------------------------------------------------------------------------
+Finished RTL Elaboration : Time (s): cpu = 00:00:48 ; elapsed = 00:01:09 . Memory (MB): peak = 1119.785 ; gain = 578.469
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:48 ; elapsed = 00:01:10 . Memory (MB): peak = 1119.785 ; gain = 578.469
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:48 ; elapsed = 00:01:10 . Memory (MB): peak = 1119.785 ; gain = 578.469
+---------------------------------------------------------------------------------
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.007 . Memory (MB): peak = 1119.785 ; gain = 0.000
+INFO: [Project 1-570] Preparing netlist for logic optimization
+
+Processing XDC Constraints
+Initializing timing engine
+Parsing XDC File [c:/Users/Andrea/Documents/GitHub/Protocolos/TPs/TP1/TP1_vio_ila/TP1_vio_ila.gen/sources_1/bd/VIO/ip/VIO_vio_0_0/VIO_vio_0_0/VIO_vio_0_0_in_context.xdc] for cell 'u_VIO/vio_0'
+Finished Parsing XDC File [c:/Users/Andrea/Documents/GitHub/Protocolos/TPs/TP1/TP1_vio_ila/TP1_vio_ila.gen/sources_1/bd/VIO/ip/VIO_vio_0_0/VIO_vio_0_0/VIO_vio_0_0_in_context.xdc] for cell 'u_VIO/vio_0'
+Parsing XDC File [c:/Users/Andrea/Documents/GitHub/Protocolos/TPs/TP1/TP1_vio_ila/TP1_vio_ila.gen/sources_1/bd/ILA/ip/ILA_ila_0_0/ILA_ila_0_0/ILA_ila_0_0_in_context.xdc] for cell 'u_ILA/ila_0'
+Finished Parsing XDC File [c:/Users/Andrea/Documents/GitHub/Protocolos/TPs/TP1/TP1_vio_ila/TP1_vio_ila.gen/sources_1/bd/ILA/ip/ILA_ila_0_0/ILA_ila_0_0/ILA_ila_0_0_in_context.xdc] for cell 'u_ILA/ila_0'
+Parsing XDC File [C:/Users/Andrea/Documents/GitHub/Protocolos/TPs/TP1/Arty-A7-35-Master.xdc]
+WARNING: [Vivado 12-584] No ports matched 'led0_b'. [C:/Users/Andrea/Documents/GitHub/Protocolos/TPs/TP1/Arty-A7-35-Master.xdc:17]
+WARNING: [Vivado 12-584] No ports matched 'led0_g'. [C:/Users/Andrea/Documents/GitHub/Protocolos/TPs/TP1/Arty-A7-35-Master.xdc:18]
+WARNING: [Vivado 12-584] No ports matched 'led1_b'. [C:/Users/Andrea/Documents/GitHub/Protocolos/TPs/TP1/Arty-A7-35-Master.xdc:20]
+WARNING: [Vivado 12-584] No ports matched 'led1_g'. [C:/Users/Andrea/Documents/GitHub/Protocolos/TPs/TP1/Arty-A7-35-Master.xdc:21]
+WARNING: [Vivado 12-584] No ports matched 'led2_b'. [C:/Users/Andrea/Documents/GitHub/Protocolos/TPs/TP1/Arty-A7-35-Master.xdc:23]
+WARNING: [Vivado 12-584] No ports matched 'led2_g'. [C:/Users/Andrea/Documents/GitHub/Protocolos/TPs/TP1/Arty-A7-35-Master.xdc:24]
+WARNING: [Vivado 12-584] No ports matched 'led3_b'. [C:/Users/Andrea/Documents/GitHub/Protocolos/TPs/TP1/Arty-A7-35-Master.xdc:26]
+WARNING: [Vivado 12-584] No ports matched 'led3_g'. [C:/Users/Andrea/Documents/GitHub/Protocolos/TPs/TP1/Arty-A7-35-Master.xdc:27]
+WARNING: [Vivado 12-584] No ports matched 'uart_rxd_out'. [C:/Users/Andrea/Documents/GitHub/Protocolos/TPs/TP1/Arty-A7-35-Master.xdc:83]
+WARNING: [Vivado 12-584] No ports matched 'uart_txd_in'. [C:/Users/Andrea/Documents/GitHub/Protocolos/TPs/TP1/Arty-A7-35-Master.xdc:84]
+Finished Parsing XDC File [C:/Users/Andrea/Documents/GitHub/Protocolos/TPs/TP1/Arty-A7-35-Master.xdc]
+WARNING: [Project 1-498] One or more constraints failed evaluation while reading constraint file [C:/Users/Andrea/Documents/GitHub/Protocolos/TPs/TP1/Arty-A7-35-Master.xdc] and the design contains unresolved black boxes. These constraints will be read post-synthesis (as long as their source constraint file is marked as used_in_implementation) and should be applied correctly then. You should review the constraints listed in the file [.Xil/top_propImpl.xdc] and check the run log file to verify that these constraints were correctly applied.
+INFO: [Project 1-236] Implementation specific constraints were found while reading constraint file [C:/Users/Andrea/Documents/GitHub/Protocolos/TPs/TP1/Arty-A7-35-Master.xdc]. These constraints will be ignored for synthesis but will be used in implementation. Impacted constraints are listed in the file [.Xil/top_propImpl.xdc].
+Resolution: To avoid this warning, move constraints listed in [.Xil/top_propImpl.xdc] to another XDC file and exclude this new file from synthesis with the used_in_synthesis property (File Properties dialog in GUI) and re-run elaboration/synthesis.
+Parsing XDC File [C:/Users/Andrea/Documents/GitHub/Protocolos/TPs/TP1/TP1_vio_ila/TP1_vio_ila.runs/synth_1/dont_touch.xdc]
+Finished Parsing XDC File [C:/Users/Andrea/Documents/GitHub/Protocolos/TPs/TP1/TP1_vio_ila/TP1_vio_ila.runs/synth_1/dont_touch.xdc]
+Completed Processing XDC Constraints
+
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 1170.898 ; gain = 0.000
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+Constraint Validation Runtime : Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.031 . Memory (MB): peak = 1170.898 ; gain = 0.000
+INFO: [Designutils 20-5440] No compile time benefit to using incremental synthesis; A full resynthesis will be run
+INFO: [Designutils 20-4379] Flow is switching to default flow due to incremental criteria not met. If you would like to alter this behaviour and have the flow terminate instead, please set the following parameter config_implementation {autoIncr.Synth.RejectBehavior Terminate}
+---------------------------------------------------------------------------------
+Finished Constraint Validation : Time (s): cpu = 00:01:37 ; elapsed = 00:02:03 . Memory (MB): peak = 1170.898 ; gain = 629.582
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Loading Part and Timing Information
+---------------------------------------------------------------------------------
+Loading part: xc7a100tcsg324-1
+---------------------------------------------------------------------------------
+Finished Loading Part and Timing Information : Time (s): cpu = 00:01:37 ; elapsed = 00:02:03 . Memory (MB): peak = 1170.898 ; gain = 629.582
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Applying 'set_property' XDC Constraints
+---------------------------------------------------------------------------------
+Applied set_property KEEP_HIERARCHY = SOFT for u_VIO. (constraint file  auto generated constraint).
+Applied set_property KEEP_HIERARCHY = SOFT for u_VIO/vio_0. (constraint file  auto generated constraint).
+Applied set_property KEEP_HIERARCHY = SOFT for u_ILA. (constraint file  auto generated constraint).
+Applied set_property KEEP_HIERARCHY = SOFT for u_ILA/ila_0. (constraint file  auto generated constraint).
+---------------------------------------------------------------------------------
+Finished applying 'set_property' XDC Constraints : Time (s): cpu = 00:01:37 ; elapsed = 00:02:03 . Memory (MB): peak = 1170.898 ; gain = 629.582
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 2 : Time (s): cpu = 00:01:38 ; elapsed = 00:02:04 . Memory (MB): peak = 1170.898 ; gain = 629.582
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start RTL Component Statistics 
+---------------------------------------------------------------------------------
+Detailed RTL Component Info : 
++---Registers : 
+	                4 Bit    Registers := 1     
+	                1 Bit    Registers := 1     
++---Muxes : 
+	   2 Input   16 Bit        Muxes := 2     
+	   2 Input    5 Bit        Muxes := 1     
+	   2 Input    4 Bit        Muxes := 1     
+	   2 Input    1 Bit        Muxes := 2     
+---------------------------------------------------------------------------------
+Finished RTL Component Statistics 
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Part Resource Summary
+---------------------------------------------------------------------------------
+Part Resources:
+DSPs: 240 (col length:80)
+BRAMs: 270 (col length: RAMB18 80 RAMB36 40)
+---------------------------------------------------------------------------------
+Finished Part Resource Summary
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Cross Boundary and Area Optimization
+---------------------------------------------------------------------------------
+WARNING: [Synth 8-7080] Parallel synthesis criteria is not met
+---------------------------------------------------------------------------------
+Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:01:51 ; elapsed = 00:02:18 . Memory (MB): peak = 1170.898 ; gain = 629.582
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Applying XDC Timing Constraints
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Applying XDC Timing Constraints : Time (s): cpu = 00:02:24 ; elapsed = 00:02:54 . Memory (MB): peak = 1312.926 ; gain = 771.609
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Timing Optimization
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Timing Optimization : Time (s): cpu = 00:02:24 ; elapsed = 00:02:54 . Memory (MB): peak = 1332.914 ; gain = 791.598
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Technology Mapping
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Technology Mapping : Time (s): cpu = 00:02:25 ; elapsed = 00:02:55 . Memory (MB): peak = 1332.914 ; gain = 791.598
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished IO Insertion : Time (s): cpu = 00:03:03 ; elapsed = 00:03:38 . Memory (MB): peak = 1537.824 ; gain = 996.508
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Instances
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Instances : Time (s): cpu = 00:03:03 ; elapsed = 00:03:38 . Memory (MB): peak = 1537.824 ; gain = 996.508
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Rebuilding User Hierarchy
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Rebuilding User Hierarchy : Time (s): cpu = 00:03:03 ; elapsed = 00:03:38 . Memory (MB): peak = 1537.824 ; gain = 996.508
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Ports
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Ports : Time (s): cpu = 00:03:03 ; elapsed = 00:03:38 . Memory (MB): peak = 1537.824 ; gain = 996.508
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:03:03 ; elapsed = 00:03:38 . Memory (MB): peak = 1537.824 ; gain = 996.508
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Nets
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Nets : Time (s): cpu = 00:03:03 ; elapsed = 00:03:38 . Memory (MB): peak = 1537.824 ; gain = 996.508
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Writing Synthesis Report
+---------------------------------------------------------------------------------
+
+Report BlackBoxes: 
++------+--------------+----------+
+|      |BlackBox name |Instances |
++------+--------------+----------+
+|1     |ILA_ila_0_0   |         1|
+|2     |VIO_vio_0_0   |         1|
++------+--------------+----------+
+
+Report Cell Usage: 
++------+----------+------+
+|      |Cell      |Count |
++------+----------+------+
+|1     |ILA_ila_0 |     1|
+|2     |VIO_vio_0 |     1|
+|3     |BUFG      |     1|
+|4     |CARRY4    |     6|
+|5     |LUT1      |     1|
+|6     |LUT2      |    11|
+|7     |LUT3      |     3|
+|8     |LUT4      |     8|
+|9     |LUT6      |     6|
+|10    |FDRE      |    20|
+|11    |FDSE      |     1|
+|12    |IBUF      |     6|
+|13    |OBUF      |    12|
++------+----------+------+
+---------------------------------------------------------------------------------
+Finished Writing Synthesis Report : Time (s): cpu = 00:03:03 ; elapsed = 00:03:38 . Memory (MB): peak = 1537.824 ; gain = 996.508
+---------------------------------------------------------------------------------
+Synthesis finished with 0 errors, 0 critical warnings and 1 warnings.
+Synthesis Optimization Runtime : Time (s): cpu = 00:02:04 ; elapsed = 00:03:25 . Memory (MB): peak = 1537.824 ; gain = 945.395
+Synthesis Optimization Complete : Time (s): cpu = 00:03:04 ; elapsed = 00:03:39 . Memory (MB): peak = 1537.824 ; gain = 996.508
+INFO: [Project 1-571] Translating synthesized netlist
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.004 . Memory (MB): peak = 1546.977 ; gain = 0.000
+INFO: [Netlist 29-17] Analyzing 6 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 1 CPU seconds
+INFO: [Project 1-570] Preparing netlist for logic optimization
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.001 . Memory (MB): peak = 1550.688 ; gain = 0.000
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+Synth Design complete | Checksum: 82c5387c
+INFO: [Common 17-83] Releasing license: Synthesis
+41 Infos, 14 Warnings, 0 Critical Warnings and 0 Errors encountered.
+synth_design completed successfully
+synth_design: Time (s): cpu = 00:03:28 ; elapsed = 00:04:35 . Memory (MB): peak = 1550.688 ; gain = 1207.441
+Write ShapeDB Complete: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.021 . Memory (MB): peak = 1550.688 ; gain = 0.000
+INFO: [Common 17-1381] The checkpoint 'C:/Users/Andrea/Documents/GitHub/Protocolos/TPs/TP1/TP1_vio_ila/TP1_vio_ila.runs/synth_1/top.dcp' has been generated.
+INFO: [Vivado 12-24828] Executing command : report_utilization -file top_utilization_synth.rpt -pb top_utilization_synth.pb
+INFO: [Common 17-206] Exiting Vivado at Tue Jun  3 21:58:15 2025...
