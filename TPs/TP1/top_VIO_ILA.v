@@ -36,8 +36,8 @@ module top
         u_count
             (
                 .o_valid(connect_count_to_sr),  
-                .i_sw   (i_sw[2:0]          ),
-                .i_reset(i_reset            ),
+                .i_sw   (sw_w[2:0]          ),
+                .i_reset(reset              ),
                 .clock  (clock              )
             );
 
@@ -49,7 +49,7 @@ module top
             (
                 .o_led  (connect_led_to_mux ),
                 .i_valid(connect_count_to_sr),
-                .i_reset(i_reset            ),
+                .i_reset(reset              ),
                 .clock  (clock              )
             );
 
@@ -78,7 +78,7 @@ module top
             );
 
     assign o_led   = connect_led_to_mux;
-    assign o_led_b = (i_sw[3]==1'b0) ? connect_led_to_mux : {NB_LEDS{1'b0}}     ;
-    assign o_led_g = (i_sw[3]==1'b0) ? {NB_LEDS{1'b0}}      : connect_led_to_mux;
+    assign o_led_b = (sw_w[3]==1'b0) ? connect_led_to_mux   : {NB_LEDS{1'b0}}     ;
+    assign o_led_g = (sw_w[3]==1'b0) ? {NB_LEDS{1'b0}}      : connect_led_to_mux  ;
 
 endmodule
