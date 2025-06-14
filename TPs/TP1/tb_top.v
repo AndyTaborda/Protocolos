@@ -60,7 +60,8 @@ module tb_top();    //No tienen puertos
                     begin
                         $display("Corriendo test...");
                     end
-                    #100   i_reset    <= 1'b1  ;  //Sale de reset
+                    #100   
+                    @(posedge clock) i_reset    <= 1'b1  ;  //Sale de reset
 
                 end
             $display("=================================================");
@@ -280,7 +281,7 @@ module tb_top();    //No tienen puertos
                    i_reset    <= 1'b0  ;  //Reseteado
                    clock      <= 1'b0  ;  //Clock en 0
                    i_sw[0]    <= 1'b0  ;  //Contador deshabilitado
-                   i_sw[2:1]   = 2'b11 ;  //Velocidad R0
+                   i_sw[2:1]   = 2'b11 ;  //Velocidad R3
                    i_sw[3]    <= 1'b0  ;  //Color azul
                    count       = 1'b0  ;  //Inicializa contador en 0
                    
