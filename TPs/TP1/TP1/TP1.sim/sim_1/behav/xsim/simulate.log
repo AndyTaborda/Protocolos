@@ -1,0 +1,14 @@
+Time resolution is 1 ps
+o_led = 1 - val_led = 1
+o_led = 1 - val_led = 1
+o_led = 1 - val_led = 1
+o_led = 1 - val_led = 1
+o_led = 1 - val_led = 1
+o_led = 1 - val_led = 1
+o_led = 1 - val_led = 1
+o_led = 1 - val_led = 1
+=================================================
+TEST 5 PASSED: Corrimiento tras 8 ciclos
+=================================================
+$finish called at time : 1205 ns : File "C:/Users/Andrea/Documents/GitHub/Protocolos/TPs/TP1/tb_top.v" Line 324
+INFO: xsimkernel Simulation Memory Usage: 27016 KB (Peak: 27016 KB), Simulation CPU Usage: 26483 ms
